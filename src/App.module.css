@@ -1,0 +1,14 @@
+img {
+    width:100%;
+    height:auto;
+}
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+}
+.videoItems{
+    margin-top:7em;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}

@@ -1,0 +1,16 @@
+
+.videoItem {
+    box-shadow: 0 0 4px 1px #808080a1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .2s;
+    border-radius: 10px;
+}
+.videoItem img{
+    border-radius: 10px 10px 0 0;
+}
+.videoItem:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px 1px grey;
+}
