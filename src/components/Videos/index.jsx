@@ -13,6 +13,7 @@ const Videos = (props) => {
             <div id={props.id} className={style.videoItem}>
                 <a data-fancybox="video-gallery" href={video}>
                     <img src={previewImg}  alt="img" />
+
                 </a>
 
                 <InfoVideo title={props.name} subtitle={props.description}/>
